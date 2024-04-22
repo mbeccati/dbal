@@ -78,6 +78,7 @@ final class ExceptionConverter implements ExceptionConverterInterface
             2002,
             2005,
             2054 => new ConnectionException($exception, $query),
+            4031,
             2006 => new ConnectionLost($exception, $query),
             1048,
             1121,
